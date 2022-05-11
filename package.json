@@ -1,0 +1,43 @@
+{
+  "name": "gameon",
+  "version": "1.0.0",
+  "description": "CS 546 project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon app.js",
+    "start": "node app.js",
+    "seed": "node ./seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felkourdi/Gameon.git"
+  },
+  "author": "Game On",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felkourdi/Gameon/issues"
+  },
+  "homepage": "https://github.com/felkourdi/Gameon#readme",
+  "dependencies": {
+    "@khanacademy/tota11y": "^0.2.0",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.0",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "i": "^0.3.7",
+    "is-valid-coordinates": "^1.0.0",
+    "moment": "^2.29.3",
+    "mongodb": "^4.4.1",
+    "node-open-geocoder": "^4.0.1",
+    "nodemailer": "^6.7.4",
+    "nodemailer-handlebars": "^1.0.1",
+    "nodemon": "^2.0.16",
+    "npm": "^8.7.0",
+    "xss": "^1.0.11"
+  }
+}
